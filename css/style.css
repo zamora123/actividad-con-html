@@ -1,0 +1,127 @@
+@font-face {
+    font-family: firstfont;
+    src: url(../css/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+body{
+    /* Ubicación de la imagen */
+    background-image: url(./img/2.jpg);
+    
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position:center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    
+}
+.register{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+#fondo{
+   
+    position: absolute; 
+    display: flex;
+    width: 435px;
+    height: 430px;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 200px;
+    margin-left: -50px;
+    margin-top: 90px;
+
+    margin-right: auto;
+    background: rgba(2, 7, 80, 0.2);
+    backdrop-filter: blur(42px);
+    
+
+}
+#name{
+    position: absolute; 
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 200px;
+    margin-left: -200px;
+    margin-top: 462px;
+
+    margin-right: auto;
+    background: rgba(43, 209, 209, 0.2);
+    backdrop-filter: blur(42px);
+  
+}
+
+#titulo{
+    font-family:firstfont;
+    position: absolute;
+    padding-top: 30px;
+ 
+}
+.pos{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pos2{
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input::-webkit-input-placeholder{
+    opacity: 0.5;
+    color: white;
+}
+
+.input{
+border-color: white;
+outline: none;
+border-width: 0 0 2px 0;
+color: white;
+background-color: transparent;  
+width: 230px;
+height: 22px;
+}
+
+#sing{
+    text-align: center;
+    position: relative;
+    top: 235px;
+    width: 230px;
+    height: 26px;
+    border-radius: 15px 5px 15px 5px;
+    border-color: white;
+    outline: none;
+}
+
+#registro{
+    color: black;
+    position: absolute;
+    top: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col{
+    flex-direction: column;
+}
+
+
+
